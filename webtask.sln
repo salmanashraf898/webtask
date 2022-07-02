@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webtask", "webtask\webtask.csproj", "{0FC551A8-03CD-43E8-90B6-16CCB7DE5529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webtask", "webtask\webtask.csproj", "{0FC551A8-03CD-43E8-90B6-16CCB7DE5529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3EF0F8A5-0B95-4CD7-9280-1BD982C92E24}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+		Script1.js = Script1.js
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

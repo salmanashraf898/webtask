@@ -15,9 +15,13 @@ namespace webtask.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.message = "data recieved";
             return View();
         }
-
+        public IActionResult test(string firstname,string lastname,string email,int phone)
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
